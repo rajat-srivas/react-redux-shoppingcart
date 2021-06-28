@@ -1,0 +1,89 @@
+.game-card {
+  /* max-height: 300px; */
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-images {
+  height: 280px;
+  width: 200px;
+}
+
+.game-images img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.game-details {
+  border-radius: 10px;
+  background: #fffbfa;
+  box-shadow: 20px 20px 60px #d9d5d5, -20px -20px 60px #ffffff;
+
+  padding: 1rem;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.game-details .game-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: center;
+  position: relative;
+  text-align: center;
+  background-color: #ffc600;
+  display: block;
+  font-family: "Permanent Marker", cursive;
+}
+
+.game-details .description {
+  font-size: 0.8rem;
+  font-weight: 500;
+  align-self: center;
+  text-align: center;
+}
+
+.game-details .price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #d74444;
+  align-self: center;
+  text-align: center;
+}
+
+.game-details button {
+  text-decoration: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.game-details .cta-add {
+  padding: 0.6rem 0.8rem;
+  width: 130px;
+  background-color: #d74444;
+  font-weight: 500;
+  align-self: center;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.game-details .cta-add:hover {
+  background: #d74444;
+  box-shadow: inset 20px 20px 60px #b73a3a, inset -20px -20px 60px #f74e4e;
+}
+
+.game-details .link {
+  color: #625086;
+  align-self: center;
+  font-size: 0.9rem;
+}

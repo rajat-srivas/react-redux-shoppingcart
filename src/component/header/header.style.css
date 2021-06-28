@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  width: 1300px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: "Bigelow Rules", sans-serif;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  color: white;
+  background-color: #d74444;
+  padding: 5px 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ffc600;
+}
+
+.cart-header {
+  position: relative;
+}
+
+.item-counter {
+  position: absolute;
+  top: -30%;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cart-icon {
+  cursor: pointer;
+}
